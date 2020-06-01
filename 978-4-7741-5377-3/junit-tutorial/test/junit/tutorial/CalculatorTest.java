@@ -30,4 +30,16 @@ public class CalculatorTest
 
         assertThat(intActual, is(intExpected));
     }
+
+    @Test
+    public void divideで３と２の除算結果が取得できる()
+    {
+        Calculator cltr = new Calculator();
+
+        float fltExpected = 1.5f;
+
+        float fltActual = cltr.divide(3, 2);
+
+        assertThat(fltActual, is(fltExpected));
+    }
 }
