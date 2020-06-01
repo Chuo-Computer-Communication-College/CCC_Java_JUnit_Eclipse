@@ -9,6 +9,11 @@ public class Calculator
 
     public float divide(int x, int y)
     {
+        if (y == 0)
+        {
+            throw new IllegalArgumentException("Divide by Zero.");
+        }
+
         return (float)x / (float)y;
     }
 }

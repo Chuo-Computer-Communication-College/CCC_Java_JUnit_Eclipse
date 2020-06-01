@@ -42,4 +42,12 @@ public class CalculatorTest
 
         assertThat(fltActual, is(fltExpected));
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void divideで５と０の時IllegalArgumentExceptionを送出する()
+    {
+        Calculator cltr = new Calculator();
+
+        cltr.divide(5, 0);
+    }
 }
