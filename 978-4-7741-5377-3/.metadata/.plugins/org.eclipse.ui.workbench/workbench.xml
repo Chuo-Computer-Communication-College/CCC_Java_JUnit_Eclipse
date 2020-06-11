@@ -23,7 +23,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="230" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="net.sf.jadclipse.JadclipseClassFileEditor" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="net.sf.jadclipse.JadclipseClassFileEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -35,9 +35,6 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -45,63 +42,29 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculatorTest.java" partName="CalculatorTest.java" path="D:/Document/Eclipse/3.7_Indigo/Java/Pleiades/CCC_Java_JUnit_Eclipse/978-4-7741-5377-3/junit-tutorial/test/junit/tutorial/CalculatorTest.java" title="CalculatorTest.java" tooltip="junit-tutorial/test/junit/tutorial/CalculatorTest.java" workbook="org.eclipse.ui.internal.EditorStack@3b6177">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/junit-tutorial/test/junit/tutorial/CalculatorTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="104" selectionTopPixel="0"/>
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ItemStockTest.java" partName="ItemStockTest.java" path="D:/Document/Eclipse/3.7_Indigo/Java/Pleiades/CCC_Java_JUnit_Eclipse/978-4-7741-5377-3/junit-tutorial/test/junit/tutorial/ItemStockTest.java" title="ItemStockTest.java" tooltip="junit-tutorial/test/junit/tutorial/ItemStockTest.java" workbook="org.eclipse.ui.internal.EditorStack@3b6177">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/junit-tutorial/test/junit/tutorial/ItemStockTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="745" selectionTopPixel="168"/>
 </editor>
-<editor id="net.sf.jadclipse.JadclipseClassFileEditor" name="Assert.class" partName="Assert.class" title="Assert.class" tooltip="org.junit.Assert" workbook="org.eclipse.ui.internal.EditorStack@3b6177">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;org.junit(Assert.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="net.sf.jadclipse.JadclipseClassFileEditor" name="CoreMatchers.class" partName="CoreMatchers.class" title="CoreMatchers.class" tooltip="org.hamcrest.CoreMatchers" workbook="org.eclipse.ui.internal.EditorStack@3b6177">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;org.hamcrest(CoreMatchers.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Calculator.java" partName="Calculator.java" path="D:/Document/Eclipse/3.7_Indigo/Java/Pleiades/CCC_Java_JUnit_Eclipse/978-4-7741-5377-3/junit-tutorial/src/junit/tutorial/Calculator.java" title="Calculator.java" tooltip="junit-tutorial/src/junit/tutorial/Calculator.java" workbook="org.eclipse.ui.internal.EditorStack@3b6177">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/junit-tutorial/src/junit/tutorial/Calculator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="257" selectionTopPixel="72"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalculatorTest.java" partName="CalculatorTest.java" path="D:/Document/Eclipse/3.7_Indigo/Java/Pleiades/CCC_Java_JUnit_Eclipse/978-4-7741-5377-3/junit-tutorial/test/junit/tutorial/CalculatorTest.java" title="CalculatorTest.java" tooltip="junit-tutorial/test/junit/tutorial/CalculatorTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/junit-tutorial/test/junit/tutorial/CalculatorTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1104" selectionTopPixel="830"/>
-</editor>
-<editor id="net.sf.jadclipse.JadclipseClassFileEditor" name="Assert.class" partName="Assert.class" title="Assert.class" tooltip="org.junit.Assert" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;org.junit(Assert.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="net.sf.jadclipse.JadclipseClassFileEditor" name="CoreMatchers.class" partName="CoreMatchers.class" title="CoreMatchers.class" tooltip="org.hamcrest.CoreMatchers" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;org.hamcrest(CoreMatchers.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Calculator.java" partName="Calculator.java" path="D:/Document/Eclipse/3.7_Indigo/Java/Pleiades/CCC_Java_JUnit_Eclipse/978-4-7741-5377-3/junit-tutorial/src/junit/tutorial/Calculator.java" title="Calculator.java" tooltip="junit-tutorial/src/junit/tutorial/Calculator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/junit-tutorial/src/junit/tutorial/Calculator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="170" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ItemStockTest.java" partName="ItemStockTest.java" path="D:/Document/Eclipse/3.7_Indigo/Java/Pleiades/CCC_Java_JUnit_Eclipse/978-4-7741-5377-3/junit-tutorial/test/junit/tutorial/ItemStockTest.java" title="ItemStockTest.java" tooltip="junit-tutorial/test/junit/tutorial/ItemStockTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/junit-tutorial/test/junit/tutorial/ItemStockTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1253" selectionTopPixel="960"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.team.ui.GenericHistoryView" partName="ヒストリー"/>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
 <viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
 </view>
-<view id="org.eclipse.team.sync.views.SynchronizeView" partName="同期化"/>
-<view id="org.eclipse.egit.ui.StagingView" partName="Git ステージング"/>
 <view id="zigen.plugin.db.ui.views.TreeView" partName="DB ツリー・ビュー">
 <viewState/>
-</view>
-<view id="org.eclipse.egit.ui.RepositoriesView" partName="Git リポジトリー">
-<viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="アウトライン">
 <viewState/>
 </view>
-<view id="org.eclipse.egit.ui.ReflogView" partName="Git 参照ログ"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="プロジェクト・エクスプローラー">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
@@ -121,6 +84,10 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="問題">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="問題">
+<expanded>
+<category IMemento.internal.id="警告 (3 項目)"/>
+<category IMemento.internal.id="エラー"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="150" org.eclipse.ui.ide.markerType="150" org.eclipse.ui.ide.pathField="200" org.eclipse.ui.ide.resourceField="150" org.eclipse.ui.ide.severityAndDescriptionField="500"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -296,66 +263,6 @@
 </layout>
 </perspective>
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
-<descriptor class="org.eclipse.egit.ui.GitRepositoriesPerspectiveFactory" id="org.eclipse.egit.ui.GitRepositoryExploring" label="Git リポジトリー・エクスプローラー"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
-<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
-<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
-<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
-<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
-<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
-<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
-<alwaysOnActionSet id="AnyEdit.actionSet"/>
-<alwaysOnActionSet id="org.limy.eclipse.code.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
-<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
-<show_view_action id="org.eclipse.team.ui.GenericHistoryView"/>
-<show_view_action id="org.eclipse.team.sync.views.SynchronizeView"/>
-<show_view_action id="org.eclipse.egit.ui.StagingView"/>
-<show_view_action id="org.eclipse.egit.ui.ReflogView"/>
-<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.egit.ui.RepositoriesView"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.team.ui.GenericHistoryView"/>
-<view id="org.eclipse.team.sync.views.SynchronizeView"/>
-<view id="org.eclipse.egit.ui.StagingView"/>
-<view id="org.eclipse.egit.ui.ReflogView"/>
-<fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@1d48085">&#x0A;<folder activePageID="org.eclipse.egit.ui.RepositoriesView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.egit.ui.RepositoriesView" label="Git リポジトリー"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d48085">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
-<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-</folder>
-</info>
-<info part="org.eclipse.ui.editorss" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d48085"/>
-<info folder="true" part="bottom" ratio="0.5" ratioLeft="449" ratioRight="449" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="プロパティー"/>
-<page content="org.eclipse.team.ui.GenericHistoryView" label="ヒストリー"/>
-<page content="org.eclipse.team.sync.views.SynchronizeView" label="同期化"/>
-<page content="org.eclipse.egit.ui.StagingView" label="Git ステージング"/>
-<page content="org.eclipse.egit.ui.ReflogView" label="Git 参照ログ"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
-</folder>
-</info>
-<info part="org.eclipse.jdt.ui.PackageExplorer" ratio="0.6993318" ratioLeft="628" ratioRight="270" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1d48085"/>
-</mainWindow>
-</layout>
-</perspective>
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -507,148 +414,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/test/junit/tutorial/CalculatorTest.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;org.junit(Assert.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;org.hamcrest(CoreMatchers.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/src/junit/tutorial/Calculator.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;org.junit(Assert.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;org.hamcrest(CoreMatchers.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/src/junit/tutorial/Calculator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/src/junit/tutorial/IsDate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/test/junit/tutorial/IsDateTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/test/junit/tutorial/JUnit3StyleTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/test/junit/tutorial/AssertionTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/test/junit/tutorial/SomeTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/test/junit/tutorial/AllTests.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-tutorial/test/junit/tutorial/ItemStockTest.java"/>
 </editors>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1612" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="398" y="0"/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1530" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1555" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1605" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="549" y="0"/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1121" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1530" y="0"/>
 </item>
-<item historyLabel="Assert.class" index="1">
-<position info="not_deleted" x="321" y="10"/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="409" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="403" y="0"/>
 </item>
-<item historyLabel="Assert.class" index="1">
-<position info="not_deleted" x="12301" y="10"/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1088" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="370" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1088" y="0"/>
 </item>
-<item historyLabel="Assert.class" index="1">
-<position info="not_deleted" x="12301" y="10"/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="775" y="0"/>
 </item>
-<item historyLabel="Assert.class" index="1">
-<position info="not_deleted" x="12301" y="10"/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1257" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1481" y="0"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1470" y="0"/>
 </item>
-<item historyLabel="CoreMatchers.class" index="2">
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1460" y="0"/>
+</item>
+<item historyLabel="IsDateTest.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="CoreMatchers.class" index="2">
-<position info="not_deleted" x="498" y="2"/>
+<item historyLabel="IsDateTest.java" index="1">
+<position info="not_deleted" x="341" y="0"/>
 </item>
-<item historyLabel="CoreMatchers.class" index="2">
-<position info="not_deleted" x="498" y="2"/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
+<item historyLabel="IsDateTest.java" index="1">
 <position/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
+<item historyLabel="IsDateTest.java" index="1">
 <position/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1469" y="0"/>
+</item>
+<item historyLabel="IsDateTest.java" index="1">
 <position/>
 </item>
-<item historyLabel="Assert.class" index="1">
-<position info="not_deleted" x="12301" y="10"/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1524" y="6"/>
 </item>
-<item historyLabel="CoreMatchers.class" index="2">
-<position info="not_deleted" x="498" y="2"/>
-</item>
-<item historyLabel="Assert.class" index="1">
-<position info="not_deleted" x="12301" y="10"/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
+<item historyLabel="IsDateTest.java" index="1">
 <position/>
 </item>
-<item historyLabel="Calculator.java" index="3">
-<position/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="1524" y="6"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="783" y="0"/>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="8" y="14"/>
 </item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="842" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position/>
-</item>
-<item historyLabel="Calculator.java" index="3">
-<position info="not_deleted" x="149" y="0"/>
-</item>
-<item historyLabel="Calculator.java" index="3">
-<position info="not_deleted" x="40" y="10"/>
-</item>
-<item historyLabel="Calculator.java" index="3">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="1099" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="1104" y="0"/>
-</item>
-<item historyLabel="Calculator.java" index="3">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="Calculator.java" index="3">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="1104" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="104" y="0"/>
-</item>
-<item historyLabel="CalculatorTest.java" index="0">
-<position info="not_deleted" x="104" y="0"/>
-</item>
-<item historyLabel="Assert.class" index="4">
+<item historyLabel="IsDateTest.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="CoreMatchers.class" index="5">
+<item historyLabel="IsDateTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="IsDateTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="JUnit3StyleTest.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Assert.class" index="4">
+<item historyLabel="AssertionTest.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="CoreMatchers.class" index="5">
+<item historyLabel="AssertionTest.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Calculator.java" index="6">
-<position info="not_deleted" x="391" y="0"/>
+<item historyLabel="IsDateTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="8" y="14"/>
+</item>
+<item historyLabel="IsDateTest.java" index="1">
+<position info="not_deleted" x="157" y="0"/>
+</item>
+<item historyLabel="IsDate.java" index="0">
+<position info="not_deleted" x="467" y="0"/>
+</item>
+<item historyLabel="IsDateTest.java" index="1">
+<position info="not_deleted" x="105" y="0"/>
+</item>
+<item historyLabel="IsDateTest.java" index="1">
+<position info="not_deleted" x="157" y="0"/>
+</item>
+<item historyLabel="IsDateTest.java" index="1">
+<position info="not_deleted" x="105" y="0"/>
+</item>
+<item historyLabel="SomeTest.java" index="4">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="AllTests.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AllTests.java" index="5">
+<position info="not_deleted" x="248" y="0"/>
+</item>
+<item historyLabel="ItemStockTest.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ItemStockTest.java" index="6">
+<position/>
+</item>
+<item historyLabel="ItemStockTest.java" index="6">
+<position/>
+</item>
+<item historyLabel="ItemStockTest.java" index="6">
+<position/>
+</item>
+<item historyLabel="ItemStockTest.java" index="6">
+<position/>
+</item>
+<item historyLabel="ItemStockTest.java" index="6">
+<position/>
+</item>
+<item historyLabel="ItemStockTest.java" index="6">
+<position info="not_deleted" x="966" y="0"/>
+</item>
+<item active="true" historyLabel="ItemStockTest.java" index="6">
+<position info="not_deleted" x="962" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -670,6 +592,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ItemStockTest.java" tooltip="junit-tutorial/test/junit/tutorial/ItemStockTest.java">
+<persistable path="/junit-tutorial/test/junit/tutorial/ItemStockTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AllTests.java" tooltip="junit-tutorial/test/junit/tutorial/AllTests.java">
+<persistable path="/junit-tutorial/test/junit/tutorial/AllTests.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SomeTest.java" tooltip="junit-tutorial/test/junit/tutorial/SomeTest.java">
+<persistable path="/junit-tutorial/test/junit/tutorial/SomeTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AssertionTest.java" tooltip="junit-tutorial/test/junit/tutorial/AssertionTest.java">
+<persistable path="/junit-tutorial/test/junit/tutorial/AssertionTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JUnit3StyleTest.java" tooltip="junit-tutorial/test/junit/tutorial/JUnit3StyleTest.java">
+<persistable path="/junit-tutorial/test/junit/tutorial/JUnit3StyleTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IsDateTest.java" tooltip="junit-tutorial/test/junit/tutorial/IsDateTest.java">
+<persistable path="/junit-tutorial/test/junit/tutorial/IsDateTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IsDate.java" tooltip="junit-tutorial/src/junit/tutorial/IsDate.java">
+<persistable path="/junit-tutorial/src/junit/tutorial/IsDate.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" name="Assert.class" tooltip="junit.framework.Assert">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;junit.framework(Assert.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" name="TestCase.class" tooltip="junit.framework.TestCase">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=junit-tutorial/junit-4.10.jar&lt;junit.framework(TestCase.class"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Calculator.java" tooltip="junit-tutorial/src/junit/tutorial/Calculator.java">
 <persistable path="/junit-tutorial/src/junit/tutorial/Calculator.java"/>
 </file>
