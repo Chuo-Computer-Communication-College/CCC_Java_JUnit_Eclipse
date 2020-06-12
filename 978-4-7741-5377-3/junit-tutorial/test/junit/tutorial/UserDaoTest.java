@@ -1,61 +1,33 @@
 package junit.tutorial;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.CoreMatchers.notNullValue;
-import static org.junit.Assert.assertThat;
-
-import java.util.List;
-
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.experimental.runners.Enclosed;
-import org.junit.runner.RunWith;
 
-@RunWith(Enclosed.class)
 public class UserDaoTest
 {
-    public static class テーブルが空の場合
+    private UserDao sut;
+//    private InMemoryDB db;
+
+    @Before
+    public void setUp() throws Exception
     {
-        UserDao sut;
+//        db = new InMemoryDB();
 
-        @Before
-        public void setUp() throws Exception
-        {
-//            DbUtils.drop("users");
+//        db.start();
 
-            sut = new UserDao();
-        }
-
-        @Test
-        public void getListで０件取得できる() throws Exception
-        {
-            List<User> actual = sut.getList();
-
-            assertThat(actual, is(notNullValue()));
-            assertThat(actual.size(), is(0));
-        }
+        sut = new UserDao();
     }
 
-    public static class テーブルにサンプルデータが100件含まれる場合
+    @After
+    public void tearDown() throws Exception
     {
-        UserDao sut;
+//        db.shutdownNow();
+    }
 
-        @Before
-        public void setUp() throws Exception
-        {
-//            DbUtils.drop("users");
-//            DbUtils.insert("users", getClass().getResource("users.yaml"));
+    @Test
+    public void getListは０件を返す() throws Exception
+    {
 
-            sut = new UserDao();
-        }
-
-        @Test
-        public void getListで100件取得できる() throws Exception
-        {
-            List<User> actual = sut.getList();
-
-            assertThat(actual, is(notNullValue()));
-            assertThat(actual.size(), is(100));
-        }
     }
 }
